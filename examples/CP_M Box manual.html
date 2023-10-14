@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+		<title>CP/M Box manual</title>
+		
+		<meta name="Keywords" content="Amstrad,PCW,8256,8512,9256,9512,PcW10,emulator,emulador,CP/M,LocoScript,manual">
+		<meta name="Description" content="CP/M Box manual. Manual de CP/M Box.">
+		<link rel="shortcut icon" href="https://www.habisoft.com/pcw/favicon.ico">
+		<style>
+			@font-face{font-family:amstrad-pcw;src:url(./amstrad-pcw.ttf)}
+			body{background:#001007;color:#00FF70;font:17px amstrad-pcw;counter-reset:h1counter}
+			p{text-indent:32px}
+			p,ul,ol{text-align:justify}
+			table,th,td{border:1px solid}
+			td{vertical-align:top}
+			a{color:inherit;text-decoration:none}
+			a:hover{text-decoration:underline}
+			.centro{display:block;margin-left:auto;margin-right:auto}
+			img{position:relative;z-index:1}
+			h1,h2,h3{background:#00FF70;color:#001007;font-size:17px;padding-left:1em}
+			h1{counter-reset:h2counter}
+			h2{counter-reset:h3counter}
+			h1:before{content:counter(h1counter)"\00a0\00a0";counter-increment:h1counter}
+			h2:before{content:counter(h1counter)"."counter(h2counter)"\00a0\00a0";counter-increment:h2counter}
+			h3:before{content:counter(h1counter)"."counter(h2counter)"."counter(h3counter)"\00a0\00a0";counter-increment:h3counter}
+			h1.nocount:before{content:none;counter-increment:none}
+		</style>
+	</head>
+	<body>
+		<div style="position:fixed;margin-left:16px" class="t">
+			<h1 class="nocount">Content</h1>
+			<ul>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Intro">Introduction</a></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Caracter">Features</a></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Requiere">Requirements</a></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Legal">Legal stuff</a></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Instalar">Installation and use</a><ul>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Instalar">Installation</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Snapshots">Snapshots</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Acciones">Actions</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Discos">Disks</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Videos">Videos</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Teclado">Keyboard</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Joystick">Joystick</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Raton">Mouse</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Lapiz">Light pen</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Almacenamiento">Mass storage</a></li>
+				</ul></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Interfaz">Interface</a><ul>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Titulo">Title</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Menus">Menus</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Barra">Bar</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Pantalla">Screen</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Hard">Hardware</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Opc">Emulation</a></li>
+				</ul></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Avanza">Advanced use</a><ul>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Depura">Debugger</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#FPCW">PCW file format</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Macros">Macros</a></li>
+					<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Notas">Notes</a></li>
+				</ul></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#FAQ">F.A.Q.</a></li>
+				<li><a href="https://www.habisoft.com/pcw/Manual/EN.htm#Mas">More information</a></li>
+			</ul>
+		</div>
+
+		<div style="position:absolute;left:336px;margin-right:32px" class="t">
+			<h1><a id="Intro">Introduction:</a></h1>
+			<p>CP/M Box is an emulator of the Amstrad PCW computer architecture, that is: 8256, 8512, 9512, 9256, 9512+ and PcW10. It is also capable of emulating additional hardware, different options and configurations, etc.</p>
+			<p>It does not emulate the PcW16, since it belongs to a different architecture; it has its own emulator.</p>
+			<p>The current version of the emulator is 1.9.2, to which this manual refers.</p>
+			<p>The objective is to achieve an emulation as faithful as possible to the original machine.</p>
+
+			<h1><a id="Caracter">Features:</a></h1>
+			<ul>
+				<li>Everything is included inside one executable file.</li>
+				<li>It fits inside a 3,5" floppy.</li>
+				<li>Emulation of official models: 8256, 8512, 9512, 9256, 9512+, PcW10.</li>
+				<li>Emulation of different memory sizes (from 128KB to 2MB), floppy drives (CF2, CF2DD, MF2DD) including geometric issues, video standards (PAL / NTSC), printer controllers, ...</li>
+				<li>Emulation of additional hardware:<ul>
+					<li>Integrated centronics port (PcW10).</li>
+					<li>Sprinter (8 Mhz).</li>
+					<li>Joysticks: Cascade (JoyceStick), Kempton, Spectravideo, Dk'tronics, Electric Studio.</li>
+					<li>Mice: AMX, Kempston, KeyMouse, Electric Studio.</li>
+					<li>Light pens: Trojan, Electric Studio.</li>
+					<li>CPS8256.</li>
+					<li>Storage: Cirtech GEM, Cirtech FlashDisk, uIDE.</li>
+					<li>Others: ColorIn, Dk'tronics sound interface.</li>
+				</ul></li>
+				<li>Understands the following formats:<ul>
+					<li>Snapshot: PCW.</li>
+					<li>Floppy: DSK, IMG.</li>
+					<li>Actions: ACC.</li>
+					<li>Screen: PNG.</li>
+					<li>Video: WMV.</li>
+					<li>Storage: HDF, RAW, IMG.</li>
+				</ul></li>
+				<li>The interface allows drag and drop.</li>
+				<li>A fast mode to manually accelerate emulation when needed.</li>
+				<li>Audio and video options, including filters. Supports full screen.</li>
+				<li>Automatic fast mode on disc load.</li>
+				<li>Can use PC joysticks / pads.</li>
+				<li>Redefinible keyboard.</li>
+				<li>A debugger with breakpoints at fetch, read, write, input and output, allowing ranges and patters.</li>
+				<li>Possibility of mapping a PC folder over unit M under CP/M.</li>
+				<li>Exact emulation up to the cycle, including contention and video.</li>
+				<li>Macros / commands support.</li>
+			</ul>
+
+			<h1><a id="Requiere">Requirements:</a></h1>
+			<ul>
+				<li>Windows XP or later.</li>
+				<li>And audio device.</li>
+				<li>For video recording Windows 7 or later is needed, and a powerful PC recomended.</li>
+			</ul>
+
+			<h1><a id="Legal">Legal stuff:</a></h1>
+			<ol>
+				<li>I do not assume any responsibility.</li>
+				<li>You can do whatever you want with this program.</li>
+				<li>All product names, logos, brands, trademarks and registered trademarks are property of their respective owners.</li>
+			</ol>
+
+			<h1><a id="Uso">Installation and use:</a></h1>
+
+			<h2><a id="Instalar">Installation:</a></h2>
+			<p>This emulator does not need any kind of installation, simply unzip the contents of the ZIP file in a folder and proceed to execute it.</p>
+			<p>Additionally, this program supports the automation of commands through the command line, using the same syntax as the macros, which are explained in its corresponding section. It can be used to associate file extensions, using it with external launchers, etc.</p>
+
+			<h2><a id="Snapshots">Snapshots:</a></h2>
+			<p>A snapshot file is a complete state of the machine (including memory, hardware status, disk content, etc.) along with metadata about the emulated machine.</p>
+			<p>When dragging a file on the window it would be loaded without further ado. If during the release on the window the shift key was pressed, the emulation would be activated if it were deactivated.</p>
+
+			<h2><a id="Acciones">Actions:</a></h2>
+			<p>An actions file is a snapshot together with additional data that describe the events that happened after that moment. It is useful to save tutorials or games in a more compact way than a video.</p>
+			<p>When dragging a file on the window it would be loaded without further ado. If during the release on the window the shift key was pressed, the emulation would be activated if it were deactivated.</p>
+
+			<h2><a id="Discos">Disks:</a></h2>
+			<p>A disk file contains the user data of a physical diskette, along with some of its geometric information.</p>
+			<p>The emulator is capable of loading both CPCEmu DSK files (normal and extended, with or without protection) and raw images with IMG extension.</p>
+			<p>The emulator works with disk images in memory, with the option to dump them back when extracted. You also have the option to insert them write protected.</p>
+			<p>When dragging a file on the window it would be inserted on the unit A. If during the release on the window the control key was pressed, it would be inserted in the unit B; if the shift key was pressed, the emulator would be reset and the emulation would be activated if it were disabled (interesting option for boot disks).</p>
+			<p>Additionally, the emulator allows to accelerate emulation during disk loads.</p>
+
+			<h2><a id="Videos">Videos:</a></h2>
+			<p>This emulator allows video recording, recording exactly what is shown on the emulated screen together with the sound.</p>
+			<p>This option requires Windows 7 or latter, and a computer capable of video realtime compression.</p>
+
+			<h2><a id="Teclado">Keyboard:</a></h2>
+			<p>The emulator maps each one of the PCW keys to the one closest to the keyboard of the PC. They can be changed by the user in the emulation options, as well as consult their assignment.</p>
+			<p>Also, the cursors of the PC along with the numeric * and / can emulate a joystick in case of not having one connected to the PC.</p>
+
+			<h2><a id="Joystick">Joystick:</a></h2>
+			<p>The emulator recognizes any joystick / pad that Windows recognizes, by directly mapping the X, Y axis and the first two buttons to the emulated joystick (Cascade, Kempston, Spectravideo, DK'tronics, Electric Studio), and converting the signal to digital in case of necessity.</p>
+			<p>If the keypad option is enabled, the joystick will additionally emulate the arrows on the PCW numeric keypad with the axes, and the space and tab with the buttons.</p>
+
+			<h2><a id="Raton">Mouse:</a></h2>
+			<p>The emulator is capable of emulating a PCW mouse (AMX, Kempston, KeyMouse, Electric Studio). To be able to handle the pointer in the emulated PCW the pointer must be captured, which is done by clicking with the right button on the emulated screen. To release it, just press the escape key.</p>
+
+			<h2><a id="Lapiz">Light pen:</a></h2>
+			<p>The emulator is capable of emulating a PCW stylus (Trojan, Electric Studio) using the mouse. The instructions are the same as in the previous case.</p>
+			<p>Additionally there is an option to show a special cursor on the screen to see its current position.</p>
+
+			<h2><a id="Almacenamiento">Mass storage:</a></h2>
+			<p>The emulator is capable of emulating several mass storage devices (Gem, Flash Disk, uIde). You can use both raw images and HDF files that include geometric information of the disk.</p>
+			<p>Given the size of these files, its information is not stored in the snapshots, but a link to the file that contains it.</p>
+			<p>Additionally, the emulator allows you to map a directory over the virtual M drive under CP/M.</p>
+
+			<h1><a id="Interfaz">Interface:</a></h1>
+			<p>While windowed, the following elements are available:</p>
+			<img src="./CP_M Box manual_files/00_En.png" class="centro" alt="">
+
+			<h2><a id="Titulo">Title:</a></h2>
+			<p>At the top of the window, like in any other application, there is the title bar.</p>
+			<p>It has the title of the application and also the file name of the floppy inserted at the A drive.</p>
+			<p>Finally, it also has the typical icons for minimize, maximize and close the window, with the usual behaviour with one exception: maximize icon activates the full screen mode, which can be canceled pressing Escape.</p>
+
+			<h2><a id="Menus">Menus:</a></h2>
+			<ul>
+				<li>File<ul>
+					<li>Snapshot<ul>
+						<li>Open - Opens a snapshot.</li>
+						<li>Save - Saves a snapshot.</li>
+					</ul></li>
+					<li>Actions<ul>
+						<li>Play - Starts playing actions.</li>
+						<li>Record - Starts recording actions.</li>
+						<li>Stop - Stops the recording or playback of the actions.</li>
+					</ul></li>
+					<li>Capture - Saves a screenshot.</li>
+					<li>Video<ul>
+						<li>Record - Starts video recording.</li>
+						<li>Stop - Stops video recording.</li>
+					</ul></li>
+					<li>Drive A / B<ul>
+						<li>Insert - Inserts a disk in the drive.</li>
+						<li>Extract - Removes disk from the drive.</li>
+						<li>New - Creates a new unformatted disk and insert it.</li>
+						<li>RO - Reads only disk.</li>
+						<li>Dump - Dumps back the disk file if it was modified.</li>
+					</ul></li>
+					<li>Exit - Closes the emulator.</li>
+				</ul></li>
+				<li>Options<ul>
+					<li>Hardware - Open the hardware options. It has its own section in the manual.</li>
+					<li>Emulation - Open the options on the emulator. It has its own section in the manual.</li>
+					<li>Languages ​​- It has a submenu to choose one of the supported languages, ​​and an auto-detection option.</li>
+					<li>Debugger - Open the debugger. It has its own section in the manual.</li>
+					<li>Persistence - Screen phosphor persistence emulation level. It has 4 levels, from less to more effect.</li>
+					<li>Start / Stop - Toggles the emulation on / off.</li>
+					<li>Fast mode - Toggles between normal and maximum speed.</li>
+					<li>Button - Some interfaces have a button, appears when that hardware is selected. Its effect depends on the interface.</li>
+					<li>Reset - Restart the emulated machine, like pressing a reset button.</li>
+					<li>Hard reset - Restart the emulated machine from zero, like power it off then on.</li>
+				</ul></li>
+				<li>Help<ul>
+					<li>Manual - Open this manual in the web browser.</li>
+					<li>About - Displays information about the emulator.</li>
+				</ul></li>
+			</ul>
+
+			<h2><a id="Barra">Bar:</a></h2>
+			<p>Under the menus we have the bar, which is divided into three sections:</p>
+			<ul>
+				<li>Shortcuts - Shortcuts of different actions present in the menus. These are, from left to right:<ul>
+					<li>Start / Stop.</li>
+					<li>Reset.</li>
+					<li>Button (if it exists).</li>
+					<li>Fast mode.</li>
+					<li>Audio volume.</li>
+				</ul></li>
+				<li>Macros - Located after the shortcuts, this section has all the macros defined for the emulator. By default, there is only one (represented by "A&gt;"), which inserts a file called cpm.dsk, resets and starts the emulation. They have their own section in the manual.</li>
+				<li>Status - Aligned to the right, this section shows us visually the status of different hardware elements. From left to right we have:<ul>
+					<li>Mass storage.</li>
+					<li>Printer.</li>
+					<li>Mouse (captured).</li>
+					<li>Disk.</li>
+				</ul></li>
+			</ul>
+
+			<h2><a id="Pantalla">Screen:</a></h2>
+			<p>This section represents the emulated computer screen, with its selected visual options.</p>
+			<p>It allows drag and drop of snapshot, actions and discs files over it.</p>
+
+			<h2><a id="Hard">Hardware:</a></h2>
+			<p>In this window you can choose the hardware options to emulate. The acceptance of them will cause a reset of the emulation. The options are divided into several tabs:</p>
+			<div style="text-align:center"><img src="./CP_M Box manual_files/02_En.png" alt=""> <img src="./CP_M Box manual_files/03_En.png" alt=""></div>
+			<ul>
+				<li>PCW - Define the base model to emulate<ul>
+					<li>Quick model - Sets the rest of the options to correspond to the chosen model.</li>
+					<li>Memory - Amount of memory, 128KB - 2MB.</li>
+					<li>Video - Video standard (PAL or NTSC).</li>
+					<li>Drive A / B - Type of disk drive in this unit.</li>
+					<li>FDI - Interconnection of units / ready.</li>
+					<li>Prn. FW - Type of printer controller (matrix or daisy wheel).</li>
+					<li>Z80 - NMOS and CMOS variants.</li>
+					<li>Speed ​​- Normal (4Mhz) or Sprinter (8Mhz). The Sprinter emulation is preliminary.</li>
+					<li>Centronics add-on - PcW10 centronics interface.</li>
+					<li>SD / DD correction - Correct disk geometry when the type of disk does not match that of the unit.</li>
+				</ul></li>
+				<li>Joysticks - Cascade (JoyceStick), Kempston, Spectravideo (RAM), DK'tronics, Electric Studio. If you select DK'tronics, the sound interface will also be emulated.</li>
+				<li>Mice - AMX, Kempston, KeyMouse, Electric Studio.</li>
+				<li>Printers - Standard (matrix or daisy wheel), CPS8256 serial, CPS8256 parallel.</li>
+				<li>Light pens - Trojan, Electric Studio.</li>
+				<li>Storage - GEM, uIDE, FlashDisk. The FlashDisk one includes a write mode option.</li>
+				<li>Others - CPS8256, PCW 8256 Test, PCW 9512 Test, ColorIn (interface for coloring the PCW video). Diagnostic PCBs include an option to exchange ROMs.</li>
+			</ul>
+
+			<h2><a id="Opc">Emulation:</a></h2>
+			<p>In this window you can choose the options of the emulator. The acceptance of them will not cause a reset. The options are divided into several tabs:</p>
+			<div style="text-align:center"><img src="./CP_M Box manual_files/04_En.png" alt=""> <img src="./CP_M Box manual_files/05_En.png" alt=""></div>
+			<ul>
+				<li>Video<ul>
+					<li>Colors - By clicking on the background and foreground colors you can change the visual aspect of the emulator. There are also predefined colors corresponding to green and white phosphor screens.</li>
+					<li>Scanlines - Displays defined or horizontally interpolated pixels in a similar way to a monochrome CRT monitor.</li>
+					<li>Interlaced - Displays defined or interpolated pixels vertically. Its intensity depends on the Interpolation bright bar.</li>
+					<li>Border - Overscan area to be displayed.</li>
+				</ul></li>
+				<li>Audio<ul>
+					<li>Beeper - Allows you to turn the integrated beeper off or on.</li>
+					<li>DK'tronics - Allows you to choose the output levels, normal or linear.</li>
+					<li>Drives - Play disk sounds when accessed.</li>
+					<li>Low-pass filter - Applies a low-pass filter, which eliminates high frequencies.</li>
+					<li>Volume - Volume of the audio.</li>
+				</ul></li>
+				<li>Emulation<ul>
+					<li>Window - Option for window scaling: output interpolation and aspect ratio option.</li>
+					<li>Light pen - Option to show or not a special cursor when it is emulated.</li>
+					<li>Joypad - Allows the choice of the joystick / gamepad used. There is an option to emulate keypad (keystrokes).</li>
+					<li>Drive - Allows you to choose whether the disk indicator lights up at motor signal or command execution. There is also the option of fast loading, which accelerates the emulator while motor signal is active.</li>
+				</ul></li>
+				<li>Keyboard - Option to redefining the keyboard. By selecting a row we can choose the corresponding PC key from the drop-down list.</li>
+				<li>Mapping - Folder mapping options onto the virtual unit M of CP/M. Here you can choose if the mapping is active, on which folder, and which fill byte is used (CP/M works on blocks of 128 bytes).</li>
+			</ul>
+
+			<h1><a id="Avanza">Advanced use:</a></h1>
+
+			<h2><a id="Depura">Debugger:</a></h2>
+			<p>The debugger is a floating, resizeable window, and always on top of the emulator. As long as it is open, the emulator works in debugging mode.</p>
+			<p>When executing code, it acquires some transparency to indicate unavailability and to be able to see what it is underneath. Execution can always be stopped with the Escape key.</p>
+			<p>When not executing code, the current video position will be marked on the PCW screen with two red lines.</p>
+			<p>The window consists of several sections:</p>
+			<img src="./CP_M Box manual_files/06_En.png" class="centro" alt="">
+
+			<h3>Registers:</h3>
+			<p>This section shows the value of the different Z80 registers, in red if they were modified since the last operation. Their value can be modified directly.</p>
+			<p>Furthermore you can see the status of the different flags. Double clicking on them changes their value.</p>
+			<p>Finally, if you are using decimal mode, the values ​​of the registers show their high and low parts separated if the mouse is hovered over it.</p>
+
+			<h3>Disassembly:</h3>
+			<p>This section represents a memory disassembly, by default from the PC register.</p>
+			<p>Rows with font in red indicate they have a breakpoint; the one for current PC value has also a bisque background. Double-clicking on a row fills in the data to set a breakpoint in that address.</p>
+			<p>Below are the following buttons:</p>
+			<ul>
+				<li>Go To - Changes the start address of the disassembly.</li>
+				<li>Step into - Execute only the current instruction.</li>
+				<li>Step over - Sets temporary breakpoint at the instruction following the current one, then run.</li>
+				<li>Step out - Sets temporary breakpoint at the address indicated at the top of the stack, then run.</li>
+				<li>Run - Continues execution.</li>
+				<li>Run to - Sets temporary breakpoint at the selected address, then run.</li>
+				<li>Tron - Starts / stops execution instruction by instruction mode.</li>
+				<li>Up, Down - Browse disassembly. It can also be done using the mouse wheel over the disassembly.</li>
+			</ul>
+
+			<h3>Breakpoints:</h3>
+			<p>This section allows you to define breakpoints. Each one has the following properties:</p>
+			<img src="./CP_M Box manual_files/08_En.png" class="centro" alt="">
+			<ul>
+				<li>Type - The types of accesses for which it occurs. They can be combined between Fetch (X), Read (R), Write (W), Input (I) and Output (O).</li>
+				<li>Expression - An expression determines which directions it applies to. It is described below.</li>
+				<li>Active - If checked, execution stops at the breakpoint.</li>
+				<li>Counter - If checked, Count increases at the breakpoint.</li>
+				<li>Count - Value that can be increased with the Counter option.</li>
+			</ul>
+			<p>The buttons down below are for add, remove and edit a breakpoint. A double click over an existing one also edits it, and they can also be dragged to reorder the list.</p>
+			<p>The expression determines which addresses should cause breakpoint. Its syntax is:</p>
+			<ul>
+				<li>[Expression]:=[Terms] | [Terms] "=" [Value]</li>
+				<li>[Terms]:= [Term] [Terms2]</li>
+				<li>[Terms2]:="" | [Terms]</li>
+				<li>[Term]:=[Base] [Pattern] | [Base] [Range]</li>
+				<li>[Range]:=[Pattern] "-" [Pattern]</li>
+				<li>[Value]:=[Base] [Pattern]</li>
+				<li>[Base]:= "" | "%" [Pattern]</li>
+				<li>[Pattern]:=[Digit] [Digits]</li>
+				<li>[Digits]:="" | [Pattern]</li>
+				<li>[Digit]:="0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "A" | "B" | "C" | "D" | "E" | "F" | "X"</li>
+			</ul>
+			<p>Notes on semantics:</p>
+			<ul>
+				<li>Default base is 16.</li>
+				<li>There is not case sensitive.</li>
+				<li>Any whitespace, carriage return, etc. is ignored, except between two [Digit]s.</li>
+				<li>The base pattern must be a valid natural number between 2 and 16, in base 10.</li>
+				<li>In any other context, a pattern must be a valid natural number in its corresponding base, some of its digits can be "X" indicating that any one is valid.</li>
+				<li>A pattern that does not explicitly cover all the required bits (16 for addresses, 8 for values) will set the remaining bits to 0. Any extra bits will be ignored.</li>
+				<li>[Base] changes the numberic base of the expression from that point onwards.</li>
+				<li>If there is a value, it must match the content of the corresponding memory / IO (this version only match XR); if there is not, always matches.</li>
+			</ul>
+			<p>Examples:</p>
+			<ul>
+				<li>X---- "3DXX" o "3D00-3DFF" - breakpoint at any Beta 128 access.</li>
+				<li>---IO "%2 xxxxxxxxxxxxxxx0" - breakpoint at any even port access (ULA).</li>
+				<li>X---- "%8 X0" - breakpoint at all RSTs.</li>
+				<li>--W-- "0-3FFF" - breakpoint at write over ROM (Dandanator).</li>
+			</ul>
+
+			<h3>Others:</h3>
+			<ul>
+				<li>Stack - Shows the last values ​​in the stack.</li>
+				<li>Memory map - Displays the memory map of the PCW. With a double click on a row the mapping can be changed temporarily.</li>
+			</ul>
+
+			<h3>Hardware registers:</h3>
+			<p>Here the value of some hardware registers is shown; again, in red those that have changed.</p>
+
+			<h3>Memory:</h3>
+			<p>This window represents a memory dump. The value of each position can be changed by writing a new value on its cell.</p>
+			<p>Below are the following buttons and options:</p>
+			<ul>
+				<li>Go to - Changes the start address of the dump.</li>
+				<li>Load - Loads a memory dump, starting from the specified address.</li>
+				<li>Save - Saves a memory dump, starting at the specified address and length.</li>
+				<li>Search - Opens the floating search window. It allows searching for text strings (case) or binary on memory.<br><img src="./CP_M Box manual_files/07_En.png" class="centro" alt=""></li>
+				<li>Read / Write - Those are used to choose which memory to work on, to read or to write (they do not have to be the same).</li>
+				<li>Exact video - This option causes the screen to be painted in sync and with previous values as future ones. Otherwise, it is painted at whole from the current state.</li>
+				<li>Hexadecimal - This option switches all the views and data inputs between decimal and hexadecimal.</li>
+			</ul>
+			<p>Furthermore, while in debugging mode, certain special Z80 instructions are supported:</p>
+			<ul>
+				<li>ED FE (DEBUG_BP)- Software breakpoint.</li>
+				<li>ED FF (DEBUG)- Debugging API; function in A, parameter in BC:<ul>
+					<li>0 - The same as ED FE; BC is ignored.</li>
+					<li>1 - Prints the 0-ended ANSI string pointed by BC, up to 256 characters.</li>
+					<li>2 - Shows the value of BC and allows it's modification before continue.</li>
+					<li>3 - Turns the fast mode off / on, depending on BC being 0 or other value.</li>
+				</ul></li>
+			</ul>
+
+			<h2><a id="FPCW">PCW Format:</a></h2>
+			<p>The PCW snapshot format was born from the need to represent everything necessary for emulation (including tapes and discs) in a single file and at the same time to be easily manipulated by the advanced user.</p>
+			<p>Thus each PCW file is nothing more than a ZIP file, which contains other files inside. In this way it can be manipulated with any compressor application.</p>
+			<p>There are two types of files inside of it: text (INI, readable and editable with any text editor) and data dumps (other extensions, usually BIN).</p>
+			<p>There are always a "Config.ini" file (hardware configuration of the emulator), a "Hardware.ini" one (state of said hardware) and "RAM.bin" one (memory dump) present.</p>
+			<p>Each line in the text files is like "A=B", meaning propery A has value B. Inside "Hardware.ini", the Z80 registers are the "Z80_xxx" properties.</p>
+			<p>Action files are the same as a snapshot, with an extra file with the port and keyboard data values that must be read.</p>
+
+			<h2><a id="Macros">Macros:</a></h2>
+			<p>The emulator has a small macro interpreter, which consists in the execution of one or more actions of the emulator.</p>
+			<p>These can be launched from the command line or stored in the macros folder of the emulator.</p>
+			<p>In the case of being stored in the folder, these consist of two files with the same name and TXT and PNG extensions respectively. When starting the emulator these are listed and added in the form of buttons to the emulator, into their section of the bar, and can be invoked by pressing said button.</p>
+			<p>The language of macros is composed of tokens (commands or parameters of commands) separated by blanks (spaces, tabs, carriage returns). In the case that a parameter contains spaces, it can be surrounded with quotes to avoid being fragmented in tokens.</p>
+			<p>The language is very simple: a succession of separate commands, each one followed by its parameters equally separated. Each command has a short form (one character, less writing) and a long form (one word, more intuitive), both of which can be used interchangeably.</p>
+			<p>The commands are not case-sensitive. In short form the commands can optionally be preceded by - or /, for compatibility.</p>
+			<p>The execution of these commands is asynchronous to the emulation if it is active, unless otherwise indicated.</p>
+			<p>The commands are:</p>
+			<table>
+				<tbody><tr><th>Short</th><th>Long</th><th>Description</th></tr>
+				<tr><td>8</td><td>EXIT</td><td>Without parameters. Closes the emulator.</td></tr>
+				<tr><td>9</td><td>WAITK</td><td>Without parameters. Waits until the keyboard buffer is empty.</td></tr>
+				<tr><td>@</td><td>EXEC</td><td>Take five parameters. The first one is the value of the Z80 register PC, the other four the memory configuration (ports $F0-$F3 of GA).</td></tr>
+				<tr><td>R</td><td>RESET</td><td>Take an optional parameter. Reset the emulator, and if there is a parameter, it specify a file with the hardware definition to apply, or makes a hard reset if its *.</td></tr>
+				<tr><td>M</td><td>MAP</td><td>Take a parameter. Maps the emulated M unit, the parameter specifies the folder to map or . to deactivate it.</td></tr>
+				<tr><td>A</td><td>DISKA</td><td>Take a parameter. If the value is . then remove the disk from drive A, otherwise it inserts the disk image file specified in the parameter. Obsolete.</td></tr>
+				<tr><td>B</td><td>DISKB</td><td>Same as the previous case, but for unit B.</td></tr>
+				<tr><td>D</td><td>DISK</td><td>Similar to the previous two cases, but it takes two parameters. The first is the unit (A or B), the second the specified file or if it is . extracts the current one.</td></tr>
+				<tr><td>E</td><td>SYNC</td><td>Without parameters. "Synchronizes" status (stops the emulator and sets it to normal speed). Obsolete.</td></tr>
+				<tr><td>T</td><td>TYPE</td><td>Take a parameter. Adds the parameter as string of characters to the keyboard buffer. Supports character # as escape for characters, in hexadecimal two-digit format.</td></tr>
+				<tr><td>W</td><td>WAIT</td><td>Take a parameter. Waits for the number of milliseconds determined by it. In case the emulation is stopped, it is started.</td></tr>
+				<tr><td>F</td><td>FULL</td><td>Take an optional parameter. This can be OFF or 0 for window mode, ON or 1 for full screen mode, none for toggle.</td></tr>
+				<tr><td>G</td><td>SPEED</td><td>Take an optional parameter. OFF or 0 for normal mode, ON or 1 for fast mode, none to toggle.</td></tr>
+				<tr><td>O</td><td>TURN</td><td>Take an optional parameter. OFF or 0 to stop emulation, ON or 1 to start it, none for toggle.</td></tr>
+				<tr><td>X</td><td>EXTERNAL</td><td>Take two parameters. Executes the external program indicated by the first with the parameters indicated in the second.</td></tr>
+				<tr><td>P</td><td>POKE</td><td>Take two parameters. Writes into the absolute memory address indicated by the first the value indicated by the second. Both are numbers in hexadecimal.</td></tr>
+				<tr><td>Q</td><td>DEBUG</td><td>Without parameters. Opens the debugger.</td></tr>
+				<tr><td>S</td><td>SNAPLOAD</td><td>Take a parameter. Loads the snapshot file indicated by it.</td></tr>
+				<tr><td>U</td><td>SNAPSAVE</td><td>Same as previous case, but for saving.</td></tr>
+				<tr><td>Y</td><td>BINLOAD</td><td>Take two parameters. Loads into the absolute memory address indicated by the first the binary file indicated by the second.</td></tr>
+				<tr><td>Z</td><td>BINSAVE</td><td>Same as previous case, but for saving.</td></tr>
+			</tbody></table>
+
+			<h2><a id="Notas">Notes:</a></h2>
+			<ul>
+				<li>Under construction.</li>
+			</ul>
+
+			<h1><a id="FAQ">F.A.Q.:</a></h1>
+			<ul>
+				<li>Where can I get games and applications? =&gt; Not here. And for copyright reasons I can not tell you where or how to use them.</li>
+				<li>What do I write when "A&gt;" appears? I do not know anything about CP/M. =&gt; There are websites dedicated to this.</li>
+				<li>Are you going to port it to Linux? Do you need help to program it? =&gt; No, at the moment.</li>
+				<li>When will the next version come out? =&gt; I do not know.</li>
+				<li>Will you emulate the PCW16? =&gt; Yes, I have a published emulator for it.</li>
+				<li>Do you accept donations? =&gt; Sure. I accept any PCW material.</li>
+			</ul>
+			<p>Common mistakes:</p>
+			<ul>
+				<li>The button "A&gt;" is grayed. =&gt; It needs a file called CPM.dsk in the emulator folder.</li>
+				<li>I have two disk drives and the second one does not work. =&gt; The second must be DD or B180.fib must be used.</li>
+				<li>Programs like "Troglo" or "ToolKit" do not work. =&gt; They need a CP/M BIOS version 1.4 or higher.</li>
+				<li>I cannot load drivers when booting CP/M. =&gt; They need a CP/M BIOS version 1.7H or higher.</li>
+				<li>Isvar from "Fairlight 2" moves on his own. =&gt; It is incompatible with the AMX mouse.</li>
+			</ul>
+
+			<h1><a id="Mas">More information:</a></h1>
+			<p>Contact:</p>
+			<ul>
+				<li>Web: <a href="http://www.habisoft.com/pcw">http://www.habisoft.com/pcw</a></li>
+				<li>EMail: pcw [AT] habisoft [DOT] com</li>
+			</ul>
+			<p>Thanks:</p>
+			<ul>
+				<li>Thank to you for using this emulator, to the Grupo de Usuarios de Amstrad (G.U.A.) and to the PCWWiki.</li>
+				<li>Special thanks to: Frank van Empel for his donation of a disk drive, Kachorro for donate a 9512, two 8256 and a lot of material, G.U.A. (and specially to CPCManiaco and Alt) for donation of a lot of material, Jevicac for donate a Gotek with HxC.</li>
+				<li>Finally, thanks to Amstrad for creating the PCW and for allowing the redistribution of copyrighted material.</li>
+			</ul>
+			<br>
+			© 2011-2019 HabiSoft.
+		</div>
+		<div style="display:block;position:fixed;top:0;left:0;bottom:0;right:0;background:linear-gradient(rgba(0,0,0,0) 50%,rgba(0,0,0,0.38) 50%);background-size:100% 2px;pointer-events:none"></div>
+	
+</body></html>
