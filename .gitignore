@@ -1,0 +1,3 @@
+# Exclude PDF files
+*.pdf
+production/gen4/Generation4_Magazines/*.pdf

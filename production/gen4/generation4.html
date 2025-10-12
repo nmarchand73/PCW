@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Génération 4 - Collection de Magazines</title>
+    <meta name="description" content="Collection complète des magazines Génération 4, le mythique magazine français de jeux vidéo des années 80-90">
+    <style>
+        @font-face {
+            font-family: 'amstrad-pcw';
+            src: url('amstrad-pcw.ttf');
+        }
+        
+        * {
+            border: 0px;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background: #001007;
+            color: #00FF70;
+            font-size: 17px;
+            font-family: 'amstrad-pcw', 'Courier New', 'Consolas', 'Monaco', monospace;
+            line-height: 1.6;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #00FF00;
+        }
+        
+        h1, h2 {
+            text-align: center;
+            background: #00FF70;
+            color: #001007;
+            font-size: 17px;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .ascii-art {
+            font-family: monospace;
+            font-size: 12px;
+            line-height: 1.2;
+            white-space: pre;
+            margin: 20px 0;
+        }
+        
+        .intro {
+            text-align: justify;
+            padding: 20px;
+            background: rgba(0, 255, 112, 0.1);
+            border: 2px solid #00FF70;
+            margin: 20px 0;
+        }
+        
+        .magazines-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin: 40px 0;
+        }
+        
+        .magazine-card {
+            background: rgba(0, 255, 112, 0.05);
+            border: 2px solid #00FF70;
+            padding: 12px;
+            transition: all 0.3s ease;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .magazine-card:hover {
+            background: rgba(0, 255, 112, 0.1);
+            border-color: #00FF00;
+            transform: translateY(-2px);
+        }
+        
+        .magazine-cover {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+            border: 1px solid #00FF70;
+            flex-shrink: 0;
+        }
+        
+        .magazine-title {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 8px;
+            color: #00FF00;
+            flex-shrink: 0;
+        }
+        
+        .magazine-description {
+            font-size: 12px;
+            text-align: justify;
+            margin-bottom: 10px;
+            line-height: 1.3;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        
+        .download-btn {
+            display: block;
+            width: 100%;
+            max-width: 150px;
+            background: #00FF70;
+            color: #001007;
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+            margin: 10px auto 0;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .download-btn:hover {
+            background: #00FF00;
+            color: #000000;
+        }
+        
+        /* Styles pour le popup */
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #001007;
+            border: 3px solid #00FF70;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .popup-header {
+            background: #00FF70;
+            color: #001007;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 7px 7px 0 0;
+        }
+        
+        .popup-header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        
+        .popup-close {
+            background: none;
+            border: none;
+            color: #001007;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s ease;
+        }
+        
+        .popup-close:hover {
+            color: #FF0000;
+        }
+        
+        .popup-body {
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .popup-cover {
+            width: 200px;
+            height: auto;
+            border: 2px solid #00FF70;
+            flex-shrink: 0;
+        }
+        
+        .popup-description {
+            flex: 1;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
+        .popup-footer {
+            padding: 15px 20px;
+            background: rgba(0, 255, 112, 0.1);
+            border-top: 1px solid #00FF70;
+            text-align: center;
+            border-radius: 0 0 7px 7px;
+        }
+        
+        .popup-download-btn {
+            display: inline-block;
+            background: #00FF70;
+            color: #001007;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-download-btn:hover {
+            background: #00FF00;
+            color: #000000;
+            transform: translateY(-2px);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { 
+                opacity: 0;
+                transform: translate(-50%, -60%);
+            }
+            to { 
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .popup-content {
+                width: 95%;
+                max-height: 95vh;
+            }
+            
+            .popup-body {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .popup-cover {
+                width: 150px;
+                margin: 0 auto;
+            }
+        }
+        
+        .stats {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            background: rgba(0, 255, 112, 0.1);
+            border: 2px solid #00FF70;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 2px solid #00FF70;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+        }
+
+        .back-link {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: #00FF70;
+            color: #001007;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 10000;
+            border: 2px solid #00FF70;
+            transition: all 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .back-link:hover {
+            background: #001007;
+            color: #00FF00;
+            border-color: #00FF00;
+            box-shadow: 0 0 20px rgba(0, 255, 112, 0.5);
+        }
+
+        @media (max-width: 1400px) {
+            .magazines-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .magazines-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .magazines-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .magazines-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-link">◄ RETOUR AU PORTAIL</a>
+    <div class="container">
+        <div class="header">
+            <div class="ascii-art">
+    ██████╗ ███████╗███╗   ██╗███████╗██████╗  █████╗ ████████╗██╗ ██████╗ ███╗   ██╗
+    ██╔══██╗██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║
+    ██████╔╝█████╗  ██╔██╗ ██║█████╗  ██████╔╝███████║   ██║   ██║██║   ██║██╔██╗ ██║
+    ██╔══██╗██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██╔══██║   ██║   ██║██║   ██║██║╚██╗██║
+    ██║  ██║███████╗██║ ╚████║███████╗██║  ██║██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║
+    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+    
+    ███╗   ██╗ ██████╗ ██████╗ ███████╗██████╗  ██████╗ ███████╗
+    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔════╝
+    ██╔██╗ ██║██║   ██║██║  ██║█████╗  ██████╔╝██║   ██║███████╗
+    ██║╚██╗██║██║   ██║██║  ██║██╔══╝  ██╔══██╗██║   ██║╚════██║
+    ██║ ╚████║╚██████╔╝██████╔╝███████╗██║  ██║╚██████╔╝███████║
+    ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+            </div>
+            
+            <h1>Collection Génération 4</h1>
+        </div>
+        
+        <div class="intro">
+            <p>
+                Bienvenue dans la collection complète des magazines <strong>Génération 4</strong>, 
+                le mythique magazine français de jeux vidéo qui a marqué toute une génération 
+                dans les années 1980-1990. Chaque numéro est un voyage dans le temps, témoignant 
+                de l'évolution fulgurante du jeu vidéo et de la passion des gamers français.
+            </p>
+            <p>
+                Découvrez les couvertures iconiques, les tests de jeux légendaires, les dossiers 
+                techniques et l'ambiance unique de cette époque dorée du jeu vidéo. Chaque magazine 
+                est disponible au format PDF pour une lecture optimale.
+            </p>
+        </div>
+        
+        <div class="stats">
+            <h2>Statistiques de la Collection</h2>
+            <p id="stats-content">Chargement des données...</p>
+        </div>
+        
+        <div id="magazines-container" class="loading">
+            Chargement des magazines...
+        </div>
+        
+        <!-- Popup pour afficher les détails du magazine -->
+        <div id="magazine-popup" class="popup-overlay">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h2 id="popup-title"></h2>
+                    <button class="popup-close" onclick="closePopup()">&times;</button>
+                </div>
+                <div class="popup-body">
+                    <img id="popup-cover" class="popup-cover" alt="Couverture du magazine">
+                    <div class="popup-description" id="popup-description"></div>
+                </div>
+                <div class="popup-footer">
+                    <a id="popup-download" class="popup-download-btn" target="_blank">
+                        📥 Télécharger le PDF complet
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Collection Génération 4 - Tous droits réservés</p>
+            <p>Magazines numérisés et restaurés avec passion</p>
+        </div>
+    </div>
+
+    <script>
+        // Données des magazines (chargées depuis le fichier JSON)
+        let magazinesData = [];
+
+        // Charger les données des magazines
+        async function loadMagazines() {
+            try {
+                const response = await fetch('magazine_data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                magazinesData = data; // Stocker les données globalement
+                displayMagazines(data);
+                updateStats(data);
+                
+            } catch (error) {
+                console.error('Erreur lors du chargement des données:', error);
+                document.getElementById('magazines-container').innerHTML = 
+                    '<div class="loading">Erreur lors du chargement des données des magazines. Vérifiez que le fichier magazine_data.json existe.</div>';
+            }
+        }
+        
+        function displayMagazines(magazines) {
+            const container = document.getElementById('magazines-container');
+            
+            if (magazines.length === 0) {
+                container.innerHTML = '<div class="loading">Aucun magazine trouvé.</div>';
+                return;
+            }
+            
+            const grid = document.createElement('div');
+            grid.className = 'magazines-grid';
+            
+            magazines.forEach(magazine => {
+                const card = document.createElement('div');
+                card.className = 'magazine-card';
+                
+                card.innerHTML = `
+                    <img src="${magazine.cover_path}" alt="${magazine.title}" class="magazine-cover" 
+                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjI2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMDAxMDA3IiBzdHJva2U9IiMwMEZGNzAiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzAwRkY3MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk1hZ2F6aW5lPC90ZXh0Pjwvc3ZnPg=='">
+                    <div class="magazine-title">${magazine.title}</div>
+                    <div class="magazine-description">${magazine.description.substring(0, 150)}...</div>
+                    <button class="download-btn" onclick="openPopup(${magazine.number - 1})">
+                        📖 Lire la description complète
+                    </button>
+                `;
+                
+                grid.appendChild(card);
+            });
+            
+            container.innerHTML = '';
+            container.appendChild(grid);
+        }
+        
+        function updateStats(magazines) {
+            const statsContent = document.getElementById('stats-content');
+            const totalMagazines = magazines.length;
+            const yearRange = magazines.length > 0 ? 
+                `${magazines[0].year} - ${magazines[magazines.length - 1].year}` : 
+                'N/A';
+            
+            statsContent.innerHTML = `
+                <strong>${totalMagazines}</strong> magazines disponibles<br>
+                Période: <strong>${yearRange}</strong><br>
+                Format: <strong>PDF haute qualité</strong>
+            `;
+        }
+        
+        // Fonctions pour gérer le popup
+        function openPopup(magazineIndex) {
+            const magazine = magazinesData[magazineIndex];
+            if (!magazine) return;
+            
+            // Remplir le contenu du popup
+            document.getElementById('popup-title').textContent = magazine.title;
+            document.getElementById('popup-cover').src = magazine.cover_path;
+            document.getElementById('popup-cover').alt = magazine.title;
+            document.getElementById('popup-description').textContent = magazine.description;
+            document.getElementById('popup-download').href = magazine.pdf_path;
+            
+            // Afficher le popup
+            document.getElementById('magazine-popup').style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Empêcher le scroll de la page
+        }
+        
+        function closePopup() {
+            document.getElementById('magazine-popup').style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restaurer le scroll de la page
+        }
+        
+        // Fermer le popup en cliquant sur l'overlay
+        document.getElementById('magazine-popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup();
+            }
+        });
+        
+        // Fermer le popup avec la touche Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePopup();
+            }
+        });
+        
+        // Charger les magazines au chargement de la page
+        document.addEventListener('DOMContentLoaded', loadMagazines);
+    </script>
+</body>
+</html>
