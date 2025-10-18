@@ -2,7 +2,7 @@
   {
     "number": 1,
     "title": "Génération 4 #001",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero001.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero001.pdf",
     "cover_path": "gen4_covers/generation4_numero001.png",
     "description": "Fin 1987, le premier numéro de Génération 4 débarque à 35 francs sous la direction de Xavier Gandon. L'Amiga 500 en couverture, avec son Motorola 68000 et ses 4096 couleurs, incarne la révolution 16-bits face aux 16 couleurs de l'Atari ST. La question \"Console ou ordinateur ?\" reflète le dilemme entre NES, Master System et micros 16-bits.\n\nPlus de 250 jeux analysés : Dungeon Master sur ST, Defender of the Crown sur Amiga, Super Mario Bros sur NES. L'équipe de Jean-Michel Maman et François Hermellin pose les bases d'un journalisme exigeant, avec rubriques techniques sur les architectures et pages \"Trucs et Astuces\".\n\nLes éditeurs français brillent : Infogrames, Loriciels, ERE Informatique présentent Captain Blood et Maupiti Island. Vendu à 80 000 exemplaires, ce numéro contribue à structurer la culture gaming française et inspire toute une génération de magazines spécialisés.",
     "year": 1985
@@ -10,7 +10,7 @@
   {
     "number": 2,
     "title": "Génération 4 #002",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero002.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero002.pdf",
     "cover_path": "gen4_covers/generation4_numero002.png",
     "description": "Début 1986, ce numéro de 100 pages à 18 francs propose 77 tests, dont Defender of the Crown et Phantasie. Le dossier de 48 éditeurs révèle les projets de Loriciels et ERE Informatique, avec les premières images de Captain Blood de Philippe Ulrich.\n\nLa section technique Amiga offre des listings BASIC pour programmer des sprites animés. La couverture de Jean-Michel Nicollet présente un robot chromé emblématique de l'esthétique années 80. Le comparatif Atari ST/Amiga 1000 alimente la \"guerre des 16 bits\" dans les cours de récréation.\n\nUn encart sur le CeBIT de Hanovre évoque les PC compatibles IBM. Le \"Club G4\" de quatre pages préfigure les communautés gaming. Tiré à 30 000 exemplaires, ce numéro témoigne d'une France qui s'affirme comme terre d'innovation vidéoludique.",
     "year": 1986
@@ -18,7 +18,7 @@
   {
     "number": 3,
     "title": "Génération 4 #003",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero003.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero003.pdf",
     "cover_path": "gen4_covers/generation4_numero003.png",
     "description": "Printemps 1988, 116 pages consacrées à l'Amiga 500 (3990 francs) et son Motorola 68000 à 7,14 MHz. Le dossier technique décortique cette machine capable d'afficher 4096 couleurs en 640x512 pixels, fer de lance de la créativité européenne.\n\nLes tests couvrent Predator (Ocean), Aquaventura (Psygnosis), Iron Lord (Ubi Soft) et Buggy Boy. L'interview de Steve Bak révèle les secrets d'optimisation des scrollings ultra-rapides sur ST. La section \"En Développement\" présente 50 projets dont Captain Blood et les premiers screenshots de Dungeon Master.\n\nLa France s'impose avec Infogrames, Loriciels et ERE Informatique. Les publicités pour les modems 2400 bauds et le courrier des lecteurs témoignent d'une communauté en structuration. À 22 francs, ce numéro capture la révolution technologique de la fin des années 80.",
     "year": 1987
@@ -26,7 +26,7 @@
   {
     "number": 4,
     "title": "Génération 4 #004",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero004.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero004.pdf",
     "cover_path": "gen4_covers/generation4_numero004.png",
     "description": "Été 1988, la couverture est consacrée à la création artistique et la numérisation sur Amiga 500. Les tests de Gauntlet II et Mickey Mouse (Infogrames) côtoient des analyses de logiciels créatifs comme Photopaint et Providéo (500-800 francs).\n\nWhere Time Stood Still impressionne en vue isométrique, Army Moves (Dinamic Software) illustre la vitalité européenne. Le dossier sur la numérisation d'images utilise le Vidéon de Micromania, annonçant le multimédia des années 90.\n\nVendu 22 francs à 45 000 lecteurs, le magazine reflète la démocratisation des technologies créatives. Jean-Michel Maman et l'équipe maintiennent l'équilibre entre profondeur technique et accessibilité, caractéristique de cette période où informatique et création artistique fusionnent.",
     "year": 1988
@@ -34,7 +34,7 @@
   {
     "number": 5,
     "title": "Génération 4 #005",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero005.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero005.pdf",
     "cover_path": "gen4_covers/generation4_numero005.png",
     "description": "Septembre-octobre 1988, Starglider 2 de Rainbird domine la couverture avec ses graphismes 3D fil de fer. À 22 francs, le magazine s'impose comme référence avec la guerre Amiga 500 (4096 couleurs) vs Atari ST (16 couleurs).\n\nThunderblade (Sega) fait sensation en TPS, Powerdrome impressionne à 15 fps sur ST, Barbarian 2 scandalise. Le dossier \"Amiga Graphics\" dévoile le Hold-And-Modify (HAM) permettant 4096 couleurs simultanées. Les premiers logiciels 3D comme Sculpt 3D annoncent la CAO grand public.\n\nLe reportage du Personal Computer Show de Londres présente Ocean Software et sa stratégie transmedia. Le courrier des lecteurs débat du prix des machines (5990F pour un Amiga 500) et de l'éternel ST vs Amiga. La scène démo française reçoit une page dédiée, avec le groupe ST Squad en vedette.",
     "year": 1989
@@ -42,7 +42,7 @@
   {
     "number": 6,
     "title": "Génération 4 #006",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero006.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero006.pdf",
     "cover_path": "gen4_covers/generation4_numero006.png",
     "description": "Novembre 1988, Bad Dudes vs. DragonNinja (Data East) illustre l'explosion des beat'em up. Le dossier Amiga célèbre le chipset révolutionnaire (Denise, Paula, Agnus) affichant 4096 couleurs et gérant 4 canaux audio. Shadow of the Beast et Defender of the Crown démontrent la puissance de la machine à 6990 francs.\n\nL'âge d'or des RPG occidentaux domine avec Dungeon Master, Pool of Radiance et Times of Lore. Six pages détaillent les subtilités de conversion graphique Amiga/Atari ST. La Mega Drive débarque en France, la NES (Bandai) séduit, le PC Engine fait sensation au Japon.\n\nSous la direction de Xavier Bacquet, le magazine tire à 45 000 exemplaires. À 22 francs, cette édition reflète la période où la France devient un acteur majeur du jeu vidéo mondial.",
     "year": 1990
@@ -50,7 +50,7 @@
   {
     "number": 7,
     "title": "Génération 4 #007",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero007.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero007.pdf",
     "cover_path": "gen4_covers/generation4_numero007.png",
     "description": "Décembre 1988, Operation Wolf (Taito) domine la une, symbolisant l'adaptation arcade/micro avec pistolet optique. Le dossier bornes d'arcade décortique Double Dragon, Dragon Ninja et Tiger Road (Capcom). La Cyberspace des Champs-Élysées attire les foules.\n\nLes previews révèlent Les Portes du Temps (Chip) et Maupiti Island (Lankhor), suite de Mortville Manor. Barbarian II (Palace Software) repousse les limites de la violence pixelisée. Thunder Blade remporte le tournoi Pepsi, premier événement esports français.\n\nLe hardware détaille les prouesses techniques : 16 couleurs sur ST (320x200), 4096 sur Amiga. L'Atari ST dépasse 200 000 exemplaires en France, Master System et NES commencent leur percée. À 22 francs, 100 pages et poster central, ce numéro capture l'identité gaming hexagonale naissante.",
     "year": 1991
@@ -58,7 +58,7 @@
   {
     "number": 8,
     "title": "Génération 4 #008",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero008.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero008.pdf",
     "cover_path": "gen4_covers/generation4_numero008.png",
     "description": "Janvier 1989, Flying Shark (Taito) éblouit avec ses sprites et scrolling parallaxe révolutionnaire. L'annonce de Chaos Strikes Back, suite de Dungeon Master (250 000 joueurs européens), promet difficulté accrue et moteur 3D amélioré. War in Middle Earth adapte Tolkien, Lords of the Rising Sun (Cinemaware) innove en narration interactive.\n\nLe cahier Amiga témoigne de l'ascension du Commodore Amiga 500 (3990 francs, 7.14 MHz). Les \"4 d'Or\" couronnent Carrier Command comme jeu 1988. La Game Boy (890 francs) s'est vendue à 250 000 exemplaires, l'Atari Lynx peine malgré sa supériorité technique.\n\nJean-Michel Blottière et son équipe mêlent expertise technique et humour. Les codes de triche circulent dans les cours de récréation. Ce numéro marque la transformation du jeu vidéo en phénomène culturel français.",
     "year": 1992
@@ -66,7 +66,7 @@
   {
     "number": 9,
     "title": "Génération 4 #009",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero009.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero009.pdf",
     "cover_path": "gen4_covers/generation4_numero009.png",
     "description": "Février-mars 1989, Knight Force (Titus) illustre l'époque où les 16 couleurs de l'Atari ST deviennent atouts visuels. Le dossier Dungeon Master marque un tournant : premier RPG temps réel avec interface révolutionnaire, 40 000 exemplaires vendus en France. Le guide avec cartes dessinées à la main reflète l'engagement communautaire.\n\nLes previews présentent Neuromancer (adaptation Gibson), Robocop (Ocean), B.A.T. (Ubi Soft) et Vindicator. Le dossier arcades rappelle les 15 000 bornes actives en France. Les comparatifs arcade/micro révèlent les prouesses d'adaptation.\n\nExplora II (Infogrames) utilise une compression graphique affichant 32 couleurs au lieu de 16, budget 800 000 francs. La carte son MIDI STE (699 francs) promet une révolution. Le comparatif Motorola 68000 alimente le débat Amiga/ST.",
     "year": 1993
@@ -74,7 +74,7 @@
   {
     "number": 10,
     "title": "Génération 4 #010",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero010.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero010.pdf",
     "cover_path": "gen4_covers/generation4_numero010.png",
     "description": "Avril 1989, Last Duel (Capcom) témoigne de l'influence des beat'em up japonais. Sur fond de guerre 16-bits (Atari ST à 200 000 exemplaires, Amiga 500), ce numéro jongle entre trois écosystèmes. Narc choque par sa violence, Strider 2 promet de surpasser son aîné, Chase HQ 2 et les Teenage Mutant Ninja Turtles illustrent l'explosion cross-média.\n\nLe dossier Explora (Infogrames, 2 millions de francs) représente l'ambition française. Roland Oskian détaille comment faire tenir 15 000 images sur deux disquettes. Le workshop GFA BASIC initie toute une génération à la programmation.\n\nLes previews couvrent Bubble Bobble 2 et F16 Combat Pilot. Le concours Capcom offre une borne Street Fighter. Les petites annonces et astuces rappellent l'époque DIY où la frontière joueur/créateur reste poreuse. Les analyses techniques comparent temps de chargement et fluidité.",
     "year": 1994
@@ -82,7 +82,7 @@
   {
     "number": 11,
     "title": "Génération 4 #011",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero011.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero011.pdf",
     "cover_path": "gen4_covers/generation4_numero011.png",
     "description": "Mai 1989, Populous et Powermonger dominent la couverture. Will Wright révolutionne avec Sim City (500 000 exemplaires) puis Sim Earth. Peter Molyneux enrichit Populous (1.5 million) avec des mécaniques innovantes. Les 56 pages explorent l'ambition grandissante des simulations.\n\nLe dossier Bitmap Brothers (36 pages) révèle les coulisses de Gods (64 couleurs, Amiga) et Magic Pockets (parallax scrolling 5 niveaux). Steve Kelly et Eric Matthews partagent leur vision d'un gaming mature, influencé par la scène électro londonienne (Nation 12).\n\nXenon 2 et ses samples digitalisés, Lord of the Rising Sun, tests détaillés sur Amiga 500 (3499F), Atari ST (2990F) et PC. L'Imagina 89 à Monte-Carlo présente les balbutiements 3D français avec Cryo Interactive et Infogrames. Le magazine structure la culture vidéoludique française.",
     "year": 1995
@@ -90,7 +90,7 @@
   {
     "number": 12,
     "title": "Génération 4 #012",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero012.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero012.pdf",
     "cover_path": "gen4_covers/generation4_numero012.png",
     "description": "Juin 1989, Blood Money (Psygnosis) domine les 148 pages. Le dossier \"40 futures adaptations arcade\" révèle l'influence des salles (800 millions de francs annuels en France). Golden Axe, Strider et OutRun Europa promettent. Beast (32 couleurs), Castle Warrior et OutRun Europa exploitent le Motorola 68000.\n\nLa \"guerre des 16 bits\" fait rage avec comparatifs sprites et scrolling. Deux posters (Forgotten Worlds, Blood Money) incarnent l'esthétique chrome et néon. Mini-guide assembleur 68000 pour développeurs Amiga/ST. L'Amiga 500 atteint 499 000 exemplaires français.\n\nLa Mega Drive arrive fin 1990. Le Konix Multisystem, console française jamais commercialisée, symbolise les ambitions déçues. Les premiers échos du CD-ROM² annoncent la révolution multimédia. Jean-Michel Blottière livre un contenu référence entre analyses techniques et enthousiasme communicatif.",
     "year": 1996
@@ -98,7 +98,7 @@
   {
     "number": 13,
     "title": "Génération 4 #013",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero013.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero013.pdf",
     "cover_path": "gen4_covers/generation4_numero013.png",
     "description": "Été 1989, Indiana Jones and the Last Crusade (LucasFilm Games, SCUMM v4) domine les 164 pages. Le jeu offre 256 couleurs sur Amiga et doublages numériques révolutionnaires. Le dossier LucasFilm dévoile Ron Gilbert et David Fox révolutionnant le point & click, avec screenshots de Loom et Their Finest Hour.\n\nL'Amiga 500 (3990 francs) domine avec 120 000 unités, l'Atari ST résiste, le PC progresse avec VGA. Delphine Software développe Future Wars, Paul Cuisset et Philippe Ulrich présentent le moteur Cinematique préfigurant Another World. Le dossier Castle Warrior expose les défis 3D polygonale balbutiante.\n\nLe 3615 GEN4 (2,23F/min) crée une communauté pré-Internet. Trois concours (dont un Amiga 2000) génèrent 12 000 participations. Les previews Black Tiger et les nouveautés Microprose/Ocean reflètent l'âge d'or arcade/micro. Quatre pages sur les demos de la scène française.",
     "year": 1997
@@ -106,7 +106,7 @@
   {
     "number": 14,
     "title": "Génération 4 #014",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero014.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero014.pdf",
     "cover_path": "gen4_covers/generation4_numero014.png",
     "description": "Septembre 1989, Batman de Tim Burton illustre la convergence cinéma/jeux vidéo. Ocean Software adapte simultanément sur ST, Amiga et PC, reproduisant l'ambiance gothique en 16 bits. Le dossier Populous révèle Peter Molyneux (Bullfrog) inaugurant le god game, sculptant terrains et civilisations grâce au 16-bits.\n\nStrider (Capcom) avec animations fluides, Shinobi (Sega) et Chase HQ (Taito) repoussent les limites. Jean-Michel Blottière propose analyses techniques pointues, caractéristiques d'une époque où comprendre compte autant que jouer. Les Copy-Parties rassemblent, les développeurs français (Éric Chahi, Philippe Ulrich) émergent internationalement.\n\nPages techniques GFA BASIC et assembleur 68000, courrier débattant compatibilité et astuces. \"Amigaistes\" vs \"Ataristes\" s'affrontent. Vendu 25 francs à 80 000 exemplaires, ce numéro capture le moment où innovation, créativité et communauté façonnent l'avenir du jeu vidéo français.",
     "year": 1998
@@ -114,7 +114,7 @@
   {
     "number": 15,
     "title": "Génération 4 #015",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero015.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero015.pdf",
     "cover_path": "gen4_covers/generation4_numero015.png",
     "description": "Octobre 1989, le dossier Lovecraft richement illustré fait écho à l'horreur vidéoludique émergente (Sweet Home sur NES). Batman: The Movie (Tim Burton) et Shadow of the Beast (12 niveaux parallaxe Amiga) repoussent les standards visuels. Les Bitmap Brothers (Eric Matthews) créent une signature reconnaissable.\n\nJean-Michel Blottière analyse Atari ST (1040 STF à 5990F), Amiga 500 (44% parts marché) et PC VGA. Phaser (Loriciel, 40 employés) symbolise l'âge d'or français aux côtés d'Infogrames et Titus. Les rubriques techniques décortiquent le 68030 Amiga et les Sound Blaster Creative Labs.\n\nSwiv (shoot'em up vertical), Toki (TAD Corporation), Killing Cloud (Freescape 3D). Psygnosis dévoile Agony (Tim Wright/CoLD SToRAGE), Midwinter 2 (Mike Singleton) promet 410 000 km². La Lynx (1290F) défie la Game Boy, le CD-ROM NEC (8990F) ouvre l'ère optique. 84 pages, 22 francs, 80 000 exemplaires.",
     "year": 1999
@@ -122,7 +122,7 @@
   {
     "number": 16,
     "title": "Génération 4 #016",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero016.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero016.pdf",
     "cover_path": "gen4_covers/generation4_numero016.png",
     "description": "Novembre 1989, 180 pages capturant l'effervescence française. Couverture Philippe \"Zad\" Caza symbolisant fusion pop culture/futurisme eighties. Le dossier PC Show (42 pages) révèle l'avenir du gaming micro, EGA 16 couleurs révolutionnaire.\n\nSherman M4 (Loriciel, André Rocca, 4 personnes) : premier tank 3D texturé ST/Amiga, 8 fps, prouesse technique. 42 jeux testés reflètent la diversité : Drakkhen (Infogrames, premiers personnages 3D temps réel), Shadow of the Beast (Psygnosis, 12 plans scrolling parallaxe). Six pages sur demos Amiga.\n\nAdLib (69,95F), disques durs 20 Mo ST, débuts CD-ROM. Mise en page manga montante illustre l'influence japonaise. Courrier débattant compatibilité, prix (Amiga 500 : 3990F), émergence shareware.\n\nPosters Drakkhen et Shadow of the Beast en quadrichromie. La France s'impose avec Loriciel, Infogrames, ERE Informatique. Vendu 25 francs, 80 000 exemplaires, ce numéro témoigne du jeu vidéo devenant phénomène culturel.",
     "year": 2000
@@ -130,7 +130,7 @@
   {
     "number": 17,
     "title": "Génération 4 #017",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero017.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero017.pdf",
     "cover_path": "gen4_covers/generation4_numero017.png",
     "description": "Décembre 1989, 228 pages à 22 francs capturant l'effervescence. Ghostbusters 2 domine, traduisant l'influence cinéma/gaming. Le dossier \"4 d'Or 1989\" célèbre Populous (Peter Molyneux), Shadow of the Beast (Amiga), Prince of Persia (Jordan Mechner, rotoscopie). 60 tests couvrent Neuromancer (Gibson), Star Trek V, Cabal.\n\nPrehistorik (Titus, Eric Zmiro, 4 personnes, 8 mois, 300 000F) : 150 000 exemplaires vendus. \"Consoles : Le Déluge!\" analyse le basculement : NES dépasse Amiga en France (420 000 unités). Les pages tech débattent CD-ROM et CDTV, guide assembleur 68000.\n\nCinq posters (dont Dungeon Master), sept concours (moniteurs Philips CM8833-II : 2990F). Génération 4 tire à 80 000 exemplaires, affrontant Tilt et Joystick. Rubriques \"Le Leaf\", \"Von Kikrach\", \"Cahier Débug\" et pokes deviennent cultes. Témoignage d'une industrie française en adolescence, oscillant ambitions internationales/charme artisanal.",
     "year": 2001
@@ -138,7 +138,7 @@
   {
     "number": 18,
     "title": "Génération 4 #018",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero018.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero018.pdf",
     "cover_path": "gen4_covers/generation4_numero018.png",
     "description": "Début 1990, Aquaventura (Psygnosis) illustre les ambitions graphiques décennie nouvelle. Jean-Michel Blottière attaque 52 tests sur Amiga (4 voix stéréo), Atari ST (musiciens) et PC (mutation VGA). Le dossier \"révolution CD\" (20 pages) décrypte CD-ROM (650 Mo), CD-I Philips, CDTV Commodore.\n\nWing Commander 2 éblouit (cinématiques digitalisées, narration épique), Ultima VII repousse le RPG (monde interactif sans précédent), Pit Fighter (Amiga, graphismes numérisés), Midwinter 2 (ST). \"Infos\" évoque French Touch : Delphine Software (Another World), ERE Informatique. Courrier débattant \"défi PC\", Amiga 500 dominant (46% parts marché).\n\nPC Engine NEC percée française, imports japonais Hazardous Area. Le magazine reflète transition technologique : Amiga 1200 sort, PC domine (DOS 5.0), Atari ST chant du cygne. Another World (Eric Chahi) évoqué. Publicités Sound Blaster, petites annonces échanges témoignent multimédia révolutionnant gaming.",
     "year": 2002
@@ -146,7 +146,7 @@
   {
     "number": 19,
     "title": "Génération 4 #019",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero019.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero019.pdf",
     "cover_path": "gen4_covers/generation4_numero019.png",
     "description": "Février 1990, Dragon's Breath domine, reflétant progrès infographie. Dossier consoles révolutionnant 1990, marché basculant micro vers console. Cadaver (Bitmap Brothers, 32 couleurs Amiga), Loom (Lucasfilm Games, système musical innovant), Federation Quest (engouement space opera Elite).\n\nAmiga 500 (100 000 exemplaires France 1989) côtoie ST et PC VGA/Sound Blaster. Teenage Mutant Hero Turtles (version européenne censurée) testé multi-supports, révélant différences techniques. CES Chicago dévoile CD-ROM révolutionnaire, Project SNES (Super Nintendo France fin 1992).\n\n\"Père Mollo\" démystifie assembleur 68000 et GFA BASIC. Courrier débattant compatibilité, copies sauvegarde, PCistes vs Amigistes. NEC PC Engine (HuCard, 64 sprites, 16 MHz) annonce invasion consoles japonaises transformant paysage français. Vendu 22 francs, témoignage transition micro européens vers consoles nippones.",
     "year": 2003
@@ -154,7 +154,7 @@
   {
     "number": 20,
     "title": "Génération 4 #020",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero020.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero020.pdf",
     "cover_path": "gen4_covers/generation4_numero020.png",
     "description": "Mars 1990, Midwinter (Microprose) domine : simulation/stratégie/action monde ouvert 160 000 km², prouesse technique. 16 bits règnent, Amiga 500 (100 000 exemplaires) et ST démocratisant informatique ludique.\n\nDossier \"Révolution CD-ROM\" préfigure avenir : 650 Mo vs disquettes 1 Mo. Prowin's 286 (12 MHz, 1 Mo RAM, 20 Mo) : 9990F témoigne démocratisation PC. Crack Down (Sega, coopératif), Shadow Warrior (VGA 256 couleurs), Ultima VI (20 heures). Philippe Ulrich et Rémi Herbulot (Cryo) présentent nouveau projet, interview Philippe Cusson (Captain Blood : 250 000 exemplaires).\n\nTechnique : passage 286, premiers pas synthèse sonore AdLib, émergence MIDI révolutionnant musique jeu. Petites annonces échanges/ventes machines occasion. Infogrames, Loriciels, ERE Informatique s'imposent. France force créative, passage 16 bits bouleversant codes, optimisme technologique où passion se professionnalise.",
     "year": 2004
@@ -162,7 +162,7 @@
   {
     "number": 21,
     "title": "Génération 4 #021",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero021.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero021.pdf",
     "cover_path": "gen4_covers/generation4_numero021.png",
     "description": "1990, dossier exhaustif Chaos Strikes Back, suite attendue de Dungeon Master. Âge d'or RPG vue subjective, 16-bits ST/Amiga permettant aventures ambitieuses. Guide 12 pages dévoile grimoire incantations (FUL IR, OH VEN), complexité satisfaisante ne faisant aucune concession. Original vendu 40 000 exemplaires France.\n\nAspect collaboratif remarquable : Carol Rott fournit plans millimétrés dessinés main, Jean-Pierre Lavinosse contribue solutions énigmes. Entraide reflète esprit années 90, partage via magazines pré-Internet. \"Les Jeux\", \"La Messagerie\", \"Le Téléchargement\" témoignent disquettes 3.5\" circulant, solutions transmises courrier postal. Présentation premiers logiciels création donjons, annonçant modding.\n\nIndustrie française effervescence : Infogrames, Delphine Software s'imposent internationalement. Génération 4 tiré 80 000 exemplaires, rôle crucial structurant communauté. Chaque RPG événement culturel majeur. Couverture illustration saisissante donjon reste symbole période dorée, complexité rimant qualité.",
     "year": 2005
@@ -170,7 +170,7 @@
   {
     "number": 22,
     "title": "Génération 4 #022",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero022.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero022.pdf",
     "cover_path": "gen4_covers/generation4_numero022.png",
     "description": "Guide de l'Avenfou N°2, 29 francs, consacré à Bloodwych (1989), dungeon crawler marquant. Zendik Tower 5ème étage décortiqué précision chirurgicale surpassant wikis modernes. Cartographie millimétrée A3 dépliable référençant recoin, piège, monstre. Équipe Génération 4 explore 40 heures.\n\nImage Works développe Amiga/Atari ST, innovant mode deux joueurs écran splitté. 3615 GEN4 (2,23F/min) : communauté échangeant astuces via Minitel, Reddit avant l'heure. Suite premier opus Chaos Strikes Back, témoignant époque RPG hardcore (Dungeon Master, Eye of the Beholder, Bard's Tale) régnant. Jean-Michel Maman propose aides exhaustives.\n\nIllustrations encre Jean-Marc Demers cultes communauté rétro-gaming, capturant atmosphère oppressante couloirs rôdant Guerriers Chaos, Sorciers Noirs. Glossaire sorts, section Trucs et Astuces révélant dupliquer objets rares (manipulation joystick/timing). Publication rappelant gaming aventure écran/papier, progression méritée, communauté construite magazines bibles mensuelles façonnant culture vidéoludique.",
     "year": 2006
@@ -178,7 +178,7 @@
   {
     "number": 23,
     "title": "Génération 4 #023",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero023.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero023.pdf",
     "cover_path": "gen4_covers/generation4_numero023.png",
     "description": "Juin 1990, couverture Michel Rho déploie panorama fantasy reflétant imaginaire débridé, limites techniques cédant ambitions créatives. Jean-Michel Blottière livre analyse Unreal (UbiSoft, 50 niveaux, parallaxe Amiga). Railroad Tycoon (Sid Meier) marque genre simulation ferroviaire PC, 12 pages test/guide stratégique.\n\nPreviews Battle Command (Ocean, tank-sim 3D temps réel), dossier Indiana Jones et la Dernière Croisade (Lucasfilm Games, dialogues choix multiples innovants). \"Déments\" présente Time Machine (plate-forme/simulation temporelle). Hardware : premiers échos SuperVGA promettant 800x600 256 couleurs PC.\n\nDossier scène démake française ST, focus ST Squad repoussant limites techniques. Electronic Arts Projectyle, esthétique chrome néon eighties, marketing se professionnalisant. Delphine Software (Operation Stealth) rivalisant productions américaines. Noël 22F, 100 pages, poster Thunder Blade, témoignant innovation technique/créativité débridée façonnant âge d'or gaming.",
     "year": 2007
@@ -186,7 +186,7 @@
   {
     "number": 24,
     "title": "Génération 4 #024",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero024.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero024.pdf",
     "cover_path": "gen4_covers/generation4_numero024.png",
     "description": "Été 1990, 228 pages bible gaming capturant explosion créative française. CABAL (Taito) révolutionne shoot'em up (visée souris), dossier adaptation film. King's Quest 5 (Sierra) première aventure VGA 256 couleurs présageant fin EGA 16 couleurs. Space Quest 4 (Two Guys from Andromeda) voyage délirant époques jeu vidéo.\n\nReportage CES Chicago (32 pages) : guerre consoles fait rage. TurboGrafx-16 (NEC, HuC6280 7,16 MHz) rivalise Mega Drive (Sega). Game Gear (première console portable couleur, écran rétroéclairé) défie Game Boy monopole. CDTV (Commodore, Amiga 500) préfigure explosion CD-ROM.\n\nHardware : ST/Amiga dominent (42%/35% parc), portables percent (Game Boy 250 000 exemplaires 890F, Lynx peine). \"4 d'Or FNAC\" (Philippe Ulrich) consacre Another World (Eric Chahi) jeu année, excellence développement français. Disquette offerte : Atomix, Killerball (Loriciel). Actualités Project Reality (N64), CD-ROM support futur. Courrier débattant consoles vs ordinateurs, programmation BASIC/assembleur 68000.",
     "year": 2008
@@ -194,7 +194,7 @@
   {
     "number": 25,
     "title": "Génération 4 #025",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero025.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero025.pdf",
     "cover_path": "gen4_covers/generation4_numero025.png",
     "description": "Septembre 1990, RoboCop domine, convergence cinéma/jeux (adaptations 500 000 dollars budget). Comparatif Dick Tracy/RoboCop 2. Tests : Neuromancer (Gibson), Prince of Persia (Mechner, rotoscopie révolutionnaire), Midnight Resistance (Data East). Previews Secret of Monkey Island (Gilbert/Schafer), Rick Dangerous 2 (Core Design).\n\nMegadrive (1290F) et Amstrad GX 4000 (990F) : affrontement 16-bits vs 8-bits derniers soubresauts. Dossier technique Motorola 68000 Megadrive, 64 couleurs simultanées. Développement français : Philippe Ulrich (ERE), Paul Cuisset (Delphine, Future Wars). Tutoriels BASIC/assembleur, lecteurs rêvant programmeurs.\n\nVendu 22F, 80 000 exemplaires, appétit grandissant information professionnelle. Petites annonces trocs/ventes, communauté soudée pré-Internet. Tests signés Le Leaf, Von Kikrach cultes, \"Coin des bidouilleurs\" partageant pokes. Jean-Michel Blottière mène. 132 pages témoignage industrie française adolescence, ambitions internationales/charme artisanal.",
     "year": 2009
@@ -202,7 +202,7 @@
   {
     "number": 26,
     "title": "Génération 4 #026",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero026.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero026.pdf",
     "cover_path": "gen4_covers/generation4_numero026.png",
     "description": "Octobre 1990, Total Recall (Verhoeven/Schwarzenegger) témoigne liens cinéma/jeux malgré résultats mitigés. Guerre 16-bits ST (1040 STF)/Amiga 500, marché européen effervescent. Previews Narc (violence graphique inédite), Strider 2 (Capcom), Chase HQ 2 (Taito), Teenage Mutant Ninja Turtles (licences cross-média explosant).\n\nReportage Consumer Electronics Show Londres : 32-bits pointent, cartes sonores AdLib/Sound Blaster révolutionnent audio PC, disques durs remplaçant disquettes. Electronic Arts promeut Populous (Peter Molyneux, god game, 500 000 exemplaires). Jean-Michel Blottière analyse VGA PC (256 couleurs), 3D polygonale émergente, CD-ROM imminent bouleversant industrie. Delphine Software (Future Wars), Lankhor (Maupiti Island) annonçant âge d'or français.\n\nPublicités joysticks QuickShot, moniteurs Philips CM8833, petites annonces rappelant époque bouillonnante gaming devenant phénomène culturel. Transition majeure : avancées techniques, créativité débordante conquérant grand public.",
     "year": 2010
@@ -210,7 +210,7 @@
   {
     "number": 27,
     "title": "Génération 4 #027",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero027.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero027.pdf",
     "cover_path": "gen4_covers/generation4_numero027.png",
     "description": "Février 1991, Sim Earth et Powermonger illustrent ambition simulations : Sim City vendu 500 000 exemplaires, Wright repoussant limites simulation planétaire. Molyneux enrichit Populous (1.5 million) mécaniques conquête 16-bits.\n\nDossier Bitmap Brothers (36 pages) : Gods (64 couleurs Amiga), Magic Pockets (parallax scrolling 5 niveaux). Steve Kelly/Eric Matthews révèlent vision gaming mature, influencé scène électro (Nation 12). Speedball 2 testé ST, Wing Commander II preview PC (640 Ko RAM), techniques nouveaux modes VGA.\n\nGame Gear (990F) bouleverse marché portables dominé Game Boy (1.4 million France). Écran couleur rétroéclairé, 4096 couleurs palette, Zilog Z80 3.58 MHz, autonomie limitée (3-4h) problématique. \"Contact\" émergence communautés, lecteurs partageant astuces Battle Squadron/Their Finest Hour. Titus, Ubi Soft, Loriciels émergent. 30 ans plus tard, témoignage effervescence créative structurant industrie française.",
     "year": 2011
@@ -218,7 +218,7 @@
   {
     "number": 28,
     "title": "Génération 4 #028",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero028.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero028.pdf",
     "cover_path": "gen4_covers/generation4_numero028.png",
     "description": "Février 1991, Speedball 2 (Bitmap Brothers) illustre montée productions européennes face géants japonais/américains. Dossier \"Jeux du Futur\" prémonitoire : CD-ROM (650 Mo), premiers pas réalité virtuelle DataGlove VPL Research (8900F).\n\nPreviews : Lemmings (phénomène 15 millions exemplaires), S.W.I.V. (héritier Silkworm), Battle Command (Realtime Games), Wonderland (Virgin Games). Lynx rivale Game Boy dominant. Lucasfilm Games expose Monkey Island (8 disquettes 3,5\"), Loom, format MIDI révolutionnaire.\n\nFrançois Mallet maintient équilibre expertise/accessibilité. PC Engine CD-ROM² prémices révolution multimédia. Courrier préoccupations : compatibilité, prix (Amiga 500 : 3990F), débats Amigaistes/Ataristes. Programmation assembleur 68000. Infogrames, Ere Informatique, Delphine Software s'imposant place forte européenne, industrie basculant ère CD-ROM/3D.",
     "year": 2012
@@ -226,7 +226,7 @@
   {
     "number": 29,
     "title": "Génération 4 #029",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero029.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero029.pdf",
     "cover_path": "gen4_covers/generation4_numero029.png",
     "description": "Février 1991, Turrican 2 (Factor 5) apogée shoot'em up 16-bits : graphismes révolutionnaires, Chris Hülsbeck légendaire, 1000 sprites, 8 niveaux titanesques, excellence européenne face productions japonaises.\n\nTests Wrath of the Demon (ReadySoft, 1500 images digitalisées), King's Quest V (Sierra, premier VGA 256 couleurs). Dossier Super Famicom (17 pages, Japon novembre 1990) : Mode 7, 16-bits 3,58 MHz, catalogue prometteur. Interviews Enki Bilal (Nikopol), Michael Moorcock (Elric), vision multimédia naissant. Jeu Infogrames gratuit (North & South, Alpha Waves).\n\nDernière publicité Commodore Amiga 500 (2995F + 5 jeux), consoles s'imposant. Rubriques techniques listings BASIC/astuces assembleur, previews F-Zero/Super Mario World. Scène démo française, ST Squad Cologne. Sonic the Hedgehog s'apprêtant bousculer Nintendo Europe. Jeu vidéo français deux âges, cherchant voie création européenne/déferlante japonaise, micro/console, passé artisanal/avenir industriel.",
     "year": 2013
@@ -234,7 +234,7 @@
   {
     "number": 30,
     "title": "Génération 4 #030",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero030.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero030.pdf",
     "cover_path": "gen4_covers/generation4_numero030.png",
     "description": "Février 1991, L'Histoire Sans Fin 2 reflète synergie cinéma/jeux. Reportage CES Las Vegas (30 pages) : 3D polygonale, CD-ROM émergent, expérimentations Sound Blaster. Might & Magic 3 révolutionnaire (interface point & click), World of Ultima 2 (VGA 256 couleurs).\n\nLemmings (97%, DMA Design), Red Baron (92%, Dynamix, simulation aérienne PC). Hardware : Daniel Macré/Jean-Michel Maman décortiquent Neo-Geo (69 800F, première 24-bits), Lynx (990F, LCD révolutionnaire) peinant face Game Boy. Dossier cartes sonores AdLib/Roland MT-32, montée PC gaming.\n\n\"Culture Pixels\" scène démake française, ERE Informatique. Frédérick Raynal développant Alone in the Dark (Infogrames). Vendu 22F, 120 000 exemplaires record. Publicités FNAC/Micromania, petites annonces disquettes 5.25\", courrier passionné replongeant période gaming devenant phénomène culturel Hexagone. Delphine Software (Another World), Lankhor (Maupiti Island) s'imposant internationalement.",
     "year": 2014
@@ -242,7 +242,7 @@
   {
     "number": 31,
     "title": "Génération 4 #031",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero031.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero031.pdf",
     "cover_path": "gen4_covers/generation4_numero031.png",
     "description": "Mars 1991, GODS (Bitmap Brothers) sensation : 16 couleurs Amiga 500/Atari ST, nouveaux standards visuels. Eric Matthews, signature reconnaissable (Xenon 2, Speedball 2).\n\nDossier IMAGINA 90 explore convergence animation japonaise/jeu vidéo : AKIRA, Roger Zelazny. Ouverture culture nippone préfigurant explosion manga France. Tests Swiv (shoot'em up vertical), Toki (TAD Corporation, portage arcade), Killing Cloud (Freescape 3D vectorielle).\n\nPsygnosis dévoile Agony (Tim Wright/CoLD SToRAGE démonstration capacités sonores Amiga), Midwinter 2 (Mike Singleton, monde ouvert 410 000 km²). Bataille technologique : Lynx (1290F) rivalise Game Boy, CD-ROM NEC (8990F) ouvre stockage optique. Courrier compatibilité, prix, micro vs consoles.\n\nVendu 22F, 80 000 exemplaires, explosion marché français. Publicités COCONUT/MICROMANIA, premiers Minitel gaming (3615 G4). France développant culture propre, influences européennes/fascination Japon. Période effervescente structurant industrie française entre innovation/créativité.",
     "year": 2015
@@ -250,7 +250,7 @@
   {
     "number": 32,
     "title": "Génération 4 #032",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero032.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero032.pdf",
     "cover_path": "gen4_covers/generation4_numero032.png",
     "description": "Avril 1991, \"nouvelle formule\" reflétant maturité média explosion. Arachnophobie (adaptation Spielberg/Daniels/Goodman) illustre convergence cinéma/jeux. BlueSky Software Sega Mega Drive transformant peur araignées expérience glaçante.\n\nExclusivité console Panther (Atari) révèle ambitions géant difficulté. Révolution 32-bits 16,7 millions couleurs concurrencer Super Nintendo, projet abandonné (Jaguar), \"what if\" intrigants histoire gaming français.\n\nÉvolution technique : Wing Commander II PC (2 Mo RAM), previews Roland MT-32, dossier CD-ROM révolutionnaire. \"Programmation\" assembleur 68000 initie. Mise en page manga illustre influence japonaise. Publicités Micro Application/Innelec, écosystème commercial émergeant.\n\nGenres diversifiant : simulations (F-19 Stealth Fighter), RPG (Eye of the Beholder), Point & Click VGA (Rise of the Dragon). Courrier débats PCistes/Amigaistes, chronique Import ouvre sorties japonaises mystérieuses. Génération 4 accompagne transformation loisir niche phénomène culturel, conservant approche technique référence joueurs exigeants.",
     "year": 2016
@@ -258,7 +258,7 @@
   {
     "number": 33,
     "title": "Génération 4 #033",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero033.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero033.pdf",
     "cover_path": "gen4_covers/generation4_numero033.png",
     "description": "Mai 1991, Predator 2 sensation 256 couleurs Amiga, sortie six mois plus tard. Méga-dossier ECTS Londres révèle effervescence : Neo-Geo (SNK, Fatal Fury), Super Nintendo inédite France rêvant F-Zero.\n\nPrehistorik (Titus, Eric Zmiro, 4 personnes, 8 mois, 300 000F) : 150 000 exemplaires, âge d'or développeurs français. \"Consoles : Le Déluge!\" analyse basculement : NES dépasse Amiga France (420 000). Pages tech débattant CD-ROM/CDTV, prémices révolution multimédia, guide assembleur 68000 lecteurs créateurs herbe.\n\nCinq posters, sept concours (Philips CM8833 : 2990F). Génération 4 80 000 exemplaires affrontant Tilt/Joystick. Screenshots pixelisés, notes /100, seul lien joueurs. Tests Le Leaf/Von Kikrach cultes, \"Coin des bidouilleurs\" pokes.\n\n132 pages témoignage industrie française adolescence, oscillant ambitions internationales/charme artisanal. Infogrames, Loriciel, ERE Informatique rôle majeur scène internationale, époque unique jeu vidéo français cherchant identité révolution culturelle/technologique marche.",
     "year": 2017
@@ -266,7 +266,7 @@
   {
     "number": 34,
     "title": "Génération 4 #034",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero034.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero034.pdf",
     "cover_path": "gen4_covers/generation4_numero034.png",
     "description": "Juin 1991, Chuck Yeager's Air Combat sensation modélisation physique aérienne, 12 missions historiques, prouesse PC/DOS. As aviation américain supervise développement Electronic Arts.\n\n212 pages dominées dossier visionnaire \"révolution CD\" (20 pages) décryptant CD-ROM (650 Mo) vs disquettes 3,5\", CD-I Philips, CDTV Commodore. Prédiction transformation expérience vidéoludique : capacités audio (CD), vidéo (séquences numérisées).\n\nTests diversité : Wing Commander 2 (cinématiques digitalisées, narration épique), Ultima VII (RPG monde interactif sans précédent), Pit Fighter (Amiga, graphismes numérisés première), Midwinter 2 (ST maturité technique). \"Infos\" French Touch : Delphine Software (Another World préparation), ERE Informatique. Courrier effervescence \"défi PC\", Amiga 500 dominant 46%.\n\nVendu 25F, qualité éditoriale Jean-Michel Blottière/Stéphane Lavoisard nouveaux standards. Publicités Sound Blaster, petites annonces témoignage transition multimédia révolutionnant gaming domestique.",
     "year": 2018
@@ -274,7 +274,7 @@
   {
     "number": 35,
     "title": "Génération 4 #035",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero035.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero035.pdf",
     "cover_path": "gen4_covers/generation4_numero035.png",
     "description": "Juillet-août 1991, 228 pages 30F reflétant effervescence industrie mutation technologique. Indiana Jones Fate of Atlantis domine : LucasFilm Games SCUMM v5, nouvelle vague point'n click narratifs (Monkey Island, Loom). Dossier dévoile coulisses Hal Barwood/Noah Falstein, trois parcours distincts innovation narrative.\n\nGunship 2000 (MicroProse, 8 pages) illustre évolution simulations militaires : moteur 3D 16 couleurs VGA, 286 12 MHz minimum. Cohabitation plateformes : Amiga 500 (400 000 France), ST, PC VGA/Sound Blaster. Teenage Mutant Hero Turtles (version censurée) testé multi-supports, différences techniques.\n\nCES Chicago dévoile CD-ROM révolutionnaire. \"Père Mollo\" démystifie assembleur 68000/GFA BASIC. Courrier débattant compatibilité, copies, PCistes vs Amigistes. Publicités GUILLEMOT (futur Ubisoft), modems 2400 bauds témoignent période charnière. Âge d'or presse spécialisée accompagnant démocratisation jeu vidéo France, style mêlant humour/rigueur.",
     "year": 2019
@@ -282,7 +282,7 @@
   {
     "number": 36,
     "title": "Génération 4 #036",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero036.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero036.pdf",
     "cover_path": "gen4_covers/generation4_numero036.png",
     "description": "Début 1992, casque pilote high-tech annonce Thunderhawk (Core Design) révolution technique Amiga : 3D rotations fluides 360°, prouesse 68000 7.14 MHz. Dossier \"Special USA\" (50 pages) montée éditeurs américains Europe : Virgin Games (The 7th Guest développement), Sierra (King's Quest V), Interplay (Alone in the Dark). Disney Software (World of Illusion) maîtrise medium.\n\nQuatre posters collectors, artwork Terminator 2 (Peter Pound) reflétant esthétique cyberpunk nineties, surfant vague Cameron (520 millions dollars). Club Génération 4 tournant social : 190F/an, pin's, réductions, accès réseau Minitel (3615 G4). Initiative pionnière Amiga 500 (300 000 exemplaires) et ST régnant, ombre PC (VGA, 486).\n\nMutations marché français : disquettes 3.5\" dominent (149F moyenne), CD-ROM pointe (stockage révolutionnaire). Publicités modems 2400 bauds balbutiements jeu ligne, rubriques trucs/astuces essentielles pré-internet solutions transmises bouche-à-oreille/courrier. Moment charnière informatique personnelle traçant révolution numérique actuelle.",
     "year": 2020
@@ -290,7 +290,7 @@
   {
     "number": 37,
     "title": "Génération 4 #037",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero037.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero037.pdf",
     "cover_path": "gen4_covers/generation4_numero037.png",
     "description": "Octobre 1991, T-800 Terminator 2 domine : Cameron pulvérise box-office, conquête ST/Amiga. Démo Ocean Software Harley-Davidson Los Angeles 16 couleurs ST, 32 Amiga.\n\nDossier ECES Londres salon majeur : Civilization (Sid Meier), Monkey Island 2 (LucasArts), Another World (Éric Chahi) fierté française sensation Delphine Software. Wing Commander II (8 pages) : space-opera Chris Roberts, séquences vocales digitalisées, cinématiques VGA 256 couleurs, PC 386 2 Mo RAM.\n\nQuatre concours joysticks Quickshot Apache, compilations Ocean, moniteur Philips CM8833-II Graal. Disquette démo Ocean : Navy Seals, Hudson Hawk. Courrier débats STistes/Amigaïstes.\n\n30F (4,57€) âge d'or presse française, Génération 4 concurrence Tilt/Joystick, approche technique ton computer. Publicités 486/Sound Blaster Pro rappelant hardware évoluant vitesse grand V. Scène démo française, ST Squad Cologne. 80 000 exemplaires collectionneurs, période charnière jeu vidéo français (Infogrames, Delphine, Cryo) rivalisant productions internationales.",
     "year": 2021
@@ -298,7 +298,7 @@
   {
     "number": 38,
     "title": "Génération 4 #038",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero038.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero038.pdf",
     "cover_path": "gen4_covers/generation4_numero038.png",
     "description": "236 pages capturant gaming français 1992, PC bouleversant codes Amiga/ST. Dossier \"Quel PC pour le jeu ?\" démystifie 386/486, Sound Blaster Pro vs AdLib.\n\nTests apogée pixel art : First Samouraï (Vivid Image, Amiga 500 limites), Heimdall (Core Design, interface souris révolutionnaire), Lotus 2 (course, mode deux joueurs splitté légendaire). Previews rêvant génération : Epic (Digital Image Design, révolution visuelle graphismes précalculés), Populous 2 (Molyneux, god game ultime), Chuck Rock 2 (Core Design, humour British).\n\nTrucs et astuces (8 pages) secrets Monkey Island 2, passages Another World. Effervescence multiplateforme : Amiga 1200 sort, PC domine (DOS 5.0), ST chant cygne. Comparatifs techniques, débats courrier. Concours 50 places J.J. Goldman illustre dimension culturelle, gaming sortant niche phénomène majeur. Publicités modems 14400 bauds, premiers CD-ROM révolution technologique. Infogrames, Delphine Software, Lankhor s'imposant acteur majeur mondial.",
     "year": 2022
@@ -306,7 +306,7 @@
   {
     "number": 39,
     "title": "Génération 4 #039",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero039.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero039.pdf",
     "cover_path": "gen4_covers/generation4_numero039.png",
     "description": "Décembre 1991, 228 pages BAT 2 (Bullfrog) successeur BAT (1989) : cyberpunk immersif VGA 256 couleurs. 80 tests diversité : Populous 2 (Molyneux, 1000 niveaux, météo révolutionnaire), RoboCop 3 (Digital Image Design, 3D polygonale), Conan (Virgin Games, technologie Gods).\n\nLynx dossier exclusif Shadowrun/Bill & Ted. Console portable couleur techniquement impressionnante (16-bits 16 MHz) peinant séduire (1290F). Zeitgeist début 90s : Ocean campagne Terminator 2 symbolise émergence licences cinématographiques.\n\nCinq concours dont 200 pins Atari collector recherchés. Vendu 25F, 80 000 exemplaires. Spécial Noël document historique : France (Delphine Software Another World, Cryo Dune) s'imposant force créative mondiale. Époque magazines bibles mensuelles façonnant culture gaming hexagonale pré-Internet. Poster central, publicités colorées, style radical typique fin eighties industrie confiance.",
     "year": 2023
@@ -314,7 +314,7 @@
   {
     "number": 40,
     "title": "Génération 4 #040",
-    "pdf_path": "https://download.abandonware.org/magazines/Generation%204/generation4_numero040.zip",
+    "pdf_path": "Generation4_Magazines/generation4_numero040.pdf",
     "cover_path": "gen4_covers/generation4_numero040.png",
     "description": "Janvier 1992, \"Spécial Pirates\" vedette Monkey Island 2 (LucasArts, suite chef-d'œuvre), Hook (Spielberg/Williams). Édition collector 85 000 exemplaires marque début année cruciale industrie.\n\nDossier Epic (Ocean Software) bouleverse shoot'em up : moteur 3D polygonal Digital Image Design, 12 fps ST, 15 Amiga, performance remarquable. Soluce King's Quest 5 (Sierra, 16 pages), interviews Roberta/Ken Williams. Hardware mutation : ST/Amiga dominent (42%/35%), portables percent (Game Boy 250 000, 890F), Lynx peine.\n\nCérémonie \"4 d'Or FNAC\" (Philippe Ulrich) consacre Another World (Éric Chahi) jeu année, excellence française. Disquette offerte : Atomix, Killerball (Loriciel). Actualités next-gen : Project Reality (N64), CD-ROM support futur. Courrier consoles vs ordinateurs, programmation BASIC/assembleur 68000.\n\nJean-Michel Blottière capsule temporelle période France développant culture vidéoludique propre, influence européenne/fascination jeu japonais. Témoignage précieux structuration industrie française adolescence/maturité.",
     "year": 2024
